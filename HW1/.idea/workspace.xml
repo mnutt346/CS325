@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="627aadb0-3b8c-46e7-9474-d39be879cf7d" name="Default Changelist" comment="" />
+    <list default="true" id="627aadb0-3b8c-46e7-9474-d39be879cf7d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/insertTime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/insertSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/insertSort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/merg.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mergeSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/mergeSort.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +24,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1ZuQWpUOJZzDi3a4uRbi4BRBuad" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -27,7 +38,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="project.kotlinCompiler" />
   </component>
-  <component name="RunManager" selected="Python.insertSort">
+  <component name="RunManager" selected="Python.insertTime">
     <configuration name="insertSort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="HW1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -41,6 +52,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/insertSort.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="insertTime" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="HW1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/insertTime.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -72,6 +104,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.insertTime" />
         <item itemvalue="Python.insertSort" />
         <item itemvalue="Python.mergeSort" />
       </list>
@@ -91,30 +124,34 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="914" height="161" key="GridCell.Tab.0.bottom" timestamp="1585752930891">
+    <state x="1170" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585838568286">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="161" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585752930891" />
-    <state width="914" height="161" key="GridCell.Tab.0.center" timestamp="1585752930891">
+    <state x="1170" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585838568286" />
+    <state width="914" height="161" key="GridCell.Tab.0.bottom" timestamp="1585838981853">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="161" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585752930891" />
-    <state width="914" height="161" key="GridCell.Tab.0.left" timestamp="1585752930891">
+    <state width="914" height="161" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585838981853" />
+    <state width="914" height="161" key="GridCell.Tab.0.center" timestamp="1585838981852">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="161" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585752930891" />
-    <state width="914" height="161" key="GridCell.Tab.0.right" timestamp="1585752930891">
+    <state width="914" height="161" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585838981852" />
+    <state width="914" height="161" key="GridCell.Tab.0.left" timestamp="1585838981852">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="161" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585752930891" />
+    <state width="914" height="161" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585838981852" />
+    <state width="914" height="161" key="GridCell.Tab.0.right" timestamp="1585838981852">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="161" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585838981852" />
     <state x="922" y="162" key="SettingsEditor" timestamp="1585690314463">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585690314463" />
-    <state x="552" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1585748974253">
+    <state x="552" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1585836429112">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585748974253" />
+    <state x="552" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585836429112" />
     <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1585694984257">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

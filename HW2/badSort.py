@@ -12,10 +12,6 @@ for line in list_data:
     line.pop(0)
 
 
-def swap(arr):
-    arr[0], arr[1] = arr[1], arr[0]
-
-
 def bad_sort(arr, left, right, alpha):
     n = right - left + 1
     if n == 2 and arr[left] > arr[right]:

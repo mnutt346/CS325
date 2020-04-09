@@ -1,5 +1,5 @@
 import math
-import numpy
+from fractions import Fraction
 
 list_data = []
 
@@ -17,7 +17,7 @@ def bad_sort(arr, left, right, alpha):
     if n == 2 and arr[left] > arr[right]:
         arr[left], arr[right] = arr[right], arr[left]
     elif n > 2:
-        m = math.ceil(alpha * n)
+        m = int(math.ceil(alpha * n))
         if m == n:
             m -= 1
         bad_sort(arr, left, left + m - 1, alpha)
@@ -27,8 +27,10 @@ def bad_sort(arr, left, right, alpha):
 
 def main():
     print("Please enter an alpha fraction < 1: ")
-    num, den = input().split('/')
-    alpha = float(num) / float(den)
+    # Python 2.7
+    alpha = float(Fraction(raw_input()))
+    # Python 3
+    # alpha = float(Fraction(input()))
     for element in list_data:
         length = len(element)
         bad_sort(element, 0, length - 1, alpha)

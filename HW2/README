@@ -1,0 +1,7 @@
+To run badSort, navigate to the root of the HW2 directory and run:
+python badSort.py
+When prompted, enter the desired value for alpha and hit enter.
+
+To run badSortTime, navigate to the root of the HW2 directory and run:
+python badSortTime.py
+When prompted, enter the desired value for alpha and hit enter.

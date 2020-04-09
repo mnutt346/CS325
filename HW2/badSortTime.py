@@ -1,6 +1,7 @@
 import math
 import random
 import timeit
+from fractions import Fraction
 
 
 # Creates list of n random integers
@@ -33,8 +34,10 @@ def bad_sort(arr, left, right, alpha):
 def main():
     # Get alpha value from user
     print("Please enter an alpha fraction < 1: ")
-    num, den = input().split('/')
-    alpha = float(num) / float(den)
+    # Python 2.7
+    alpha = float(Fraction(raw_input()))
+    # Python 3
+    # alpha = float(Fraction(input()))
 
     start_time_1000 = timeit.default_timer()
     bad_sort(data_100, 0, 19, alpha)

@@ -33,7 +33,9 @@ def main():
         length = len(element)
         bad_sort(element, 0, length - 1, alpha)
 
-    print(list_data)
+    with open("bad.out", "w") as output_file:
+        for line in list_data:
+            output_file.write("%s\n" % line)
 
 
 main()

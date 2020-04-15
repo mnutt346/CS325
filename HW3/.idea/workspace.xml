@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="357add54-0118-43db-b31d-d9997c7fef81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HW2/HW2_MichaelNutt.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HW2/HW2_MichaelNutt.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW1/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../HW1/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW1/HW1.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../HW1/HW1.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW1/insertTime.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HW1/insertTime.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW1/mergeTime.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HW1/mergeTime.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW2/badSortTime.py" beforeDir="false" afterPath="$PROJECT_DIR$/../HW2/badSortTime.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopping.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopping.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,22 +87,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1220" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586897649470" />
-    <state width="914" height="281" key="GridCell.Tab.0.bottom" timestamp="1586911666406">
+    <state width="914" height="281" key="GridCell.Tab.0.bottom" timestamp="1586966484181">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586911666406" />
-    <state width="914" height="281" key="GridCell.Tab.0.center" timestamp="1586911666405">
+    <state width="914" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586966484181" />
+    <state width="914" height="281" key="GridCell.Tab.0.center" timestamp="1586966484181">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586911666405" />
-    <state width="914" height="281" key="GridCell.Tab.0.left" timestamp="1586911666405">
+    <state width="914" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586966484181" />
+    <state width="914" height="281" key="GridCell.Tab.0.left" timestamp="1586966484180">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586911666405" />
-    <state width="914" height="281" key="GridCell.Tab.0.right" timestamp="1586911666405">
+    <state width="914" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586966484180" />
+    <state width="914" height="281" key="GridCell.Tab.0.right" timestamp="1586966484181">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586911666405" />
+    <state width="914" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586966484181" />
     <state x="1096" y="244" key="run.anything.popup" timestamp="1586900929212">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -42,7 +42,7 @@ def main():
         prices = []
         weights = []
 
-        print("Test Case ", test + 1)
+        print("Test Case " + str(test + 1))
 
         items = int(input_file.readline())
 
@@ -68,10 +68,13 @@ def main():
         for element in data_table:
             element.sort()
 
-        print("Total Price ", curr_max_price)
+        print ("Total Price " + str(curr_max_price))
         print("Member Items")
         for member in range(family_members):
-            print(str(member + 1) + ": ", *data_table[member])
+            print(str(member + 1) + ": "),
+            for item in data_table[member]:
+                print(item),
+            print
 
 
 main()

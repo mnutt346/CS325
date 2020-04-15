@@ -33,6 +33,9 @@ def main():
     items = 0
     family_members = 0
     max_weight = 0
+    with open("results.txt", "w") as output_file:
+        output_file.write("")
+    output_file.close()
 
     # Get the number of test cases from the input file
     test_cases = int(input_file.readline())
@@ -42,8 +45,9 @@ def main():
         prices = []
         weights = []
 
-        print("Test Case " + str(test + 1))
-
+        with open("results.txt", "a+") as output_file:
+            output_file.write("Test Case " + str(test + 1) + "\n")
+        output_file.close()
         items = int(input_file.readline())
 
         # For each item, collect the corresponding prices and weights
@@ -68,13 +72,15 @@ def main():
         for element in data_table:
             element.sort()
 
-        print ("Total Price " + str(curr_max_price))
-        print("Member Items")
-        for member in range(family_members):
-            print(str(member + 1) + ": "),
-            for item in data_table[member]:
-                print(item),
-            print
+        with open("results.txt", "a+") as output_file:
+            output_file.write("Total Price " + str(curr_max_price) + "\n")
+            output_file.write("Member Items\n")
+            for member in range(family_members):
+                output_file.write(str(member + 1) + ": "),
+                for item in data_table[member]:
+                    output_file.write(str(item) + " ")
+                output_file.write("\n")
+
 
 
 main()
